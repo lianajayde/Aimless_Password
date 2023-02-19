@@ -6,7 +6,7 @@ var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var characterSymbols = "!@#$%^&*()_+";
 var characterNumbers = "0123456789";
 
-
+// Function for generate password button
 function generatePassword() {
   console.log("Button works");
 
@@ -21,7 +21,7 @@ function generatePassword() {
   var symbol = confirm("Do you want symbols?");
   var numbers = confirm("Do you want numbers?");
  
-
+// If else statement to execute what the user wants from the password
   if(character === true){
     chars = upperCase
   }
@@ -46,6 +46,7 @@ function generatePassword() {
 }
 
 
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -54,6 +55,17 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+//// 
+
+for (var i = 0; i >= 8; i++) {
+  var randomNumber = Math.floor(Math.random() *chars.length);
+  password += chars.substring(randomNumber, randomNumber + 1);
+}
+
+document.getElementById("password").value = password;
+
+////
 
 
 
