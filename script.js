@@ -1,12 +1,13 @@
-// Get references to the #generate element
+//Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
+//Declaring variables
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var characterSymbols = "!@#$%^&*()_+";
 var characterNumbers = "0123456789";
 
-// Function for generate password button
+//Function for generate password button
 function generatePassword() {
   console.log("Button works");
 
@@ -21,7 +22,7 @@ function generatePassword() {
   var symbol = confirm("Do you want symbols?");
   var numbers = confirm("Do you want numbers?");
  
-// If else statement to execute what the user wants from the password
+//If else statement to execute what the user wants from the password
   if(character === true){
     chars = upperCase
   }
@@ -37,6 +38,7 @@ function generatePassword() {
 
   }
   else {
+  //Alert message that password doesn't meet password requirements
     alert("It does not reach password requirements")
     console.log("It does not reach password requirements")
   }
@@ -48,25 +50,19 @@ function generatePassword() {
     console.log(password);
 
     password += chars[randomIndex];
-
   }
 
   return "Generated password here";
-
 }
 
 
-
-
-// Write password to the #password input
+//Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
-
-// Add event listener to generate button
+//Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);

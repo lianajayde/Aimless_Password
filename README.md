@@ -1,20 +1,26 @@
-# Password Generator Starter Code
-This code is created to make a password generator. 
-A password generator creates and gives you a random password.
+# AIMLESS_PASSWORD
 
-I started by editing the HTML and adding the requirements for the password as a label.
-I added that the password must be a minimun of 8 characters and no more than 128.
-I added that the password must include atleast one uppercase, one number and one special character.
+# DETAILS
+This code was created to generate a random password based on a minimum of 8 characters.<br>
 
-I declared approriate variables needed for my code to respond to.
-
-Then I moved to the javascript file and made some changes to that.
-I first started by making sure my generated button was clickable.
-I then put some code on the javascript file to make sure that the requirements for the password were met and if it does not meet password requirements a message of
-"does not meet password requirements" will show on the screen.
+How I made changes to the starter code..<br>
+I started by editing the HTML and adding the requirements for the password as a label.<br>
+I added that the password must be a minimum of 8 characters and no more than 128.<br>
+I added that the password must include atleast one uppercase, one number and one special character.<br>
+I declared approriate variables needed for my code to respond to.<br>
+I added a message alert for the password.<br>
 I created an if else statement for the password requirements.
 
+# WHAT I LEARNED FROM THIS CHALLENGE
+I learned how to use an if else statement.
+I learned how to make an alert message.
 
+# HELPFUL WEBSITES I USED
+https://www.w3schools.com/jsref/met_win_alert.asp <br>
+https://docs.oracle.com/javase/7/docs/api/java/beans/EventHandler.html <br>
+https://www.w3schools.com/js/js_if_else.asp <br>
 
-Lastly, I made a new repo throught github and made sure my code was viewable and accessible
-through my repo github.
+# DEPLOYED WEBPAGE
+<a href="">Aimless Password</a>
+<br>
+
