@@ -12,7 +12,7 @@ I added a message alert for the password.<br>
 I created an if else statement for the password requirements.
 
 # WHAT I LEARNED FROM THIS CHALLENGE
-I learned how to use an if else statement.
+I learned how to use an if else statement.<br>
 I learned how to make an alert message.
 
 # HELPFUL WEBSITES I USED
@@ -21,6 +21,6 @@ https://docs.oracle.com/javase/7/docs/api/java/beans/EventHandler.html <br>
 https://www.w3schools.com/js/js_if_else.asp <br>
 
 # DEPLOYED WEBPAGE
-<a href="">Aimless Password</a>
+<a href="https://lianajayde.github.io/Aimless_Password/">Aimless Password</a>
 <br>
-
+<img class="one" src="images/one.jpg" height="400" alt="This is a screenshot">
