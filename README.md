@@ -23,4 +23,15 @@ https://www.w3schools.com/js/js_if_else.asp <br>
 # DEPLOYED WEBPAGE
 <a href="https://lianajayde.github.io/Aimless_Password/">Aimless Password</a>
 <br>
+<br>
 <img class="one" src="images/one.jpg" height="400" alt="This is a screenshot">
+<br>
+<img class="two" src="images/two.jpg" height="400" alt="This is a screenshot">
+<br>
+<img class="three" src="images/three.jpg" height="400" alt="This is a screenshot">
+<br>
+<img class="four" src="images/four.jpg" height="400" alt="This is a screenshot">
+<br>
+<img class="five" src="images/five.jpg" height="400" alt="This is a screenshot">
+<br>
+<img class="six" src="images/six.jpg" height="400" alt="This is a screenshot">
