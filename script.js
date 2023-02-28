@@ -41,9 +41,20 @@ function generatePassword() {
     console.log("It does not reach password requirements")
   }
 
+///this is where im stuck
+  for (let i = 0; i < passwordLength; i++){
+    var randomIndex = Math.floor(Math.random() * chars.length);
+    console.log(randomIndex);
+    console.log(password);
+
+    password += chars[randomIndex];
+
+  }
+
   return "Generated password here";
 
 }
+
 
 
 
@@ -56,20 +67,6 @@ function writePassword() {
 
 }
 
-//// 
-
-for (var i = 0; i >= 8; i++) {
-  var randomNumber = Math.floor(Math.random() *chars.length);
-  password += chars.substring(randomNumber, randomNumber + 1);
-}
-
-document.getElementById("password").value = password;
-
-////
-
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
