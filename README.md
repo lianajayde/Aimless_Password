@@ -15,6 +15,13 @@ I created an if else statement for the password requirements.
 I learned how to use an if else statement.<br>
 I learned how to make an alert message.
 
+# TECHNOLOGIES USED:
+*HTML
+<br>
+*CSS
+<br>
+*JAVASCRIPT
+
 # HELPFUL WEBSITES I USED
 https://www.w3schools.com/jsref/met_win_alert.asp <br>
 https://docs.oracle.com/javase/7/docs/api/java/beans/EventHandler.html <br>
