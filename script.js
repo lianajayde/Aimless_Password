@@ -11,7 +11,7 @@ var characterNumbers = "0123456789";
 function generatePassword() {
   console.log("Button works");
 
-  var chars = "";
+  var chars = [];
   var password = "";
 
   var passwordLength = prompt("Please enter a character amount between 8 and 128");
@@ -43,17 +43,18 @@ function generatePassword() {
     console.log("It does not reach password requirements")
   }
 
+  
 ///this is where im stuck
-  for (let i = 0; i < passwordLength; i++){
-    var randomIndex = Math.floor(Math.random() * chars.length);
-    console.log(randomIndex);
-    console.log(password);
-
-    password += chars[randomIndex];
+  for (var i = 0; i < passwordLength; i++) {
+   var character = chars[Math.floor(Math.random() * chars.length)];
+    password += chars;
   }
 
   return "Generated password here";
 }
+
+
+
 
 
 //Write password to the #password input
